@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Calculadora de temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <div>
+        <input type="number" id="c" name="c" placeholder="Informe a temperatura em Celcius" /> 
+        <button id="calcularc" onclick="calculoc()" >ºC</button>
+    </div>
+    <div>
+        <input type="number" id="f" name="f" placeholder="Informe a temperatura em Fahrenheit" /> 
+        <button id="calcularf" onclick="calculof()">ºF</button>
+    </div>
+    <div>
+        <input type="number" id="k" name="k" placeholder="Informe a temperatura em Kelvin" /> 
+        <button id="calculark" onclick="calculok()">K</button>
+    </div>
+    <div>
+        <input type="number" id="r" name="r" placeholder="Informe a temperatura em Rankine" /> 
+        <button id="calcularr" onclick="calculor()">R</button>
+    </div>
+    <button id="limpar" >Redefinir</button>
+    <script src="calculadora.js"></script>
+</body>
+</html>
